@@ -10,6 +10,7 @@ namespace GitBranchingPractice
     {
         public string Name { get; set; }
 
+        public string Manufacturor { get; set; }
         public virtual void Go()
         {
             Console.WriteLine("Vehicle is going");
